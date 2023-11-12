@@ -1,11 +1,156 @@
-@import url('https://fonts.google.com/specimen/Poppins');
+/* estilos universales */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
   font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 0; /*Reset de estilos para eliminar márgenes y rellenos predeterminados*/
+  padding: 0; /*Reset de estilos para eliminar márgenes y rellenos predeterminados*/
   box-sizing: border-box; /*el tamaño de la caja se quedará igual, el contenido sí podrá salir pero la cajaa se mantiene*/
 }
 
-body{
-  background-color: red;
+/* inicio de estilos para el header */
+
+header div {
+  padding: 0 25px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
 }
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form label {
+  color: rgba(O, 0, 0, 0.5);
+}
+
+form input {
+  width: 100%;
+  color: rgba(O, 0, 0, 0.5);
+}
+
+form button {
+  background-color: #fb3e44;
+  color: white;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.menu-link {
+  
+}
+
+.npm-logo {
+  width: 60px;
+  margin-right: 1rem;
+}
+
+.magnifying-glass {
+  width: 30px;
+  margin-right: 1rem;
+}
+
+/* cierre de estilos para el header */
+
+/* estilos para cada sección */
+#section-1 {
+  background-color: rgba(232,217,217,.3);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+#section-1 ul{
+  list-style: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-1 ul li{
+  display:inline-block;
+  margin-right: 20px;
+}
+
+#section-1 ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(232,217,217,0.3);
+  box-shadow: 8px 8px 0 rgba(251,59,73,0.2);
+}
+.essential {
+
+}
+
+.section-2{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-3{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tool{
+  
+} 
+
+/* cierre de estilos de las secciones */
+
+
+/* inicio de estilos para los botones */
+
+button, a.search-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover, a.search-button {
+  background-color: #45a049;
+}
+
+button, a.fcc-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover, a.fcc-btn:hover {
+  background-color: #45a049;
+}
+
+/* cierre de estilos para los botones */
