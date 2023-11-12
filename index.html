@@ -7,57 +7,60 @@
     <title>NPM</title>
     <link rel="stylesheet" href="style.css"></link>
 </head>
+
 <body>
-    <header>
+
+<header>
+    <div>
         <div>
-            <div>
-                <img src="assets/black-heart.png" class="blackHeart"/>
-                <span>Nifty Penguin Magic</span>
-            </div>
-                <nav>
-                    <ul>
-                        <li><a href="#" class="menu-link">npm Enterprise</a></li>
-                        <li><a href="#" class="menu-link">Products</a></li>
-                        <li><a href="#" class="menu-link">Solutions</a></li>
-                        <li><a href="#" class="menu-link">Resources</a></li>
-                        <li><a href="#" class="menu-link">Docs</a></li>
-                        <li><a href="#" class="menu-link">Support</a></li>
-                    </ul>
-                </nav>
+            <img src="assets/black-heart.png" class="blackHeart"/>
+            <span>Nifty Penguin Magic</span>
+            <nav>
+                <ul>
+                    <li><a href="#" class="menu-link">npm Enterprise</a></li>
+                    <li><a href="#" class="menu-link">Products</a></li>
+                    <li><a href="#" class="menu-link">Solutions</a></li>
+                    <li><a href="#" class="menu-link">Resources</a></li>
+                    <li><a href="#" class="menu-link">Docs</a></li>
+                    <li><a href="#" class="menu-link">Support</a></li>
+                </ul>
+            </nav>
         </div>
         <div>
-            <img src="assets/npm-logo.png"/>
-            <img src="assets/magnifying-glass.png" class=""/>
-            <form id="form"> 
+            <img src="assets/npm-logo.png" class="npm-logo"/>
+            <form id="form">
+                <img src="assets/magnifying-glass.png" class="magnifying-glass"/>
                 <input type="search" id="query" name="q" placeholder="Search packages">
-                <button>Search</button>
+                <button type="submit" class="search-button">Search</button>
             </form>
             <a class="fcc-btn" href="">Join</a>
             <a class="fcc-btn" href="">Log in</a>
         </div>
-    </header>
-    <main>
-        <h1>Build amazing things</h1><br><br>
-        <article class="Essential">
-            <p>Essential JavaScript development tools that help you go to market faster and build powerful applications using modern open source code.</p> 
-        </article>
+    </div>
+</header>
+
+
+<section class="section-1">
+    <h1>Build amazing things</h1>
+    <br><br>
+    <article class="Essential">
+        <p>Essential JavaScript development tools that help you go to market faster and build powerful applications using modern open source code.</p> 
+    </article>
+    <ul>
         <li><a href="#">See plans</a></li>
         <li><a href="#">Join for free</a></li>
-    </main>
-    <section>
-        <img src="assets/triangle-hexagon.svg"/>
-        <h2>Bring the best of open source to your company</h2>
-        <article class="tool">
-            <p>npm is the tool used by over 11,000,000 JavaScript developers around the world. Your developers already use it. Your company depends on it. Create an Org and get more out of the tools your team already knows and loves. </p>
-        </article>   
-    </section>
-    <section>
-        <img src="assets/triangle-hexagon.svg"/>
-        <h2>Bring the best of open source to your company</h2>
-        <article class="tool">
-            <p>npm is the tool used by over 11,000,000 JavaScript developers around the world. Your developers already use it. Your company depends on it. Create an Org and get more out of the tools your team already knows and loves. </p>
-        </article>   
-    </section>
+    </ul>  
+</section>
+
+<section class="section-2">
+    <img src="assets/triangle-hexagon.svg"/>
+    <h2>Bring the best of open source to your company</h2>
+    <article class="tool">
+        <p>npm is the tool used by over 11,000,000 JavaScript developers around the world. Your developers already use it. Your company depends on it. Create an Org and get more out of the tools your team already knows and loves. </p>
+    </article>   
+</section>
+
+<section class="section-3">
     <div>
         <img src="assets/zero-configuration.svg"/>
         <h3>Zero configuration</h3>
@@ -79,5 +82,7 @@
         <p>Enjoy the security auditing features built into the npm client, a zero-friction way to make open source software safer.</p>
     </div>
     <button>Create an Org</button>
+</section>
+
 </body>
 </html>
